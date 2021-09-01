@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Survey Pop Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="popup">
+        <a href="#" class="close-btn">
+          <i class="fas fa-times"></i>
+        </a>
+        <div class="main-content">
+          <h4>
+            Would you like to receive updates when we post new upcoming
+            webinars?
+          </h4>
+          <form class="actions">
+            <label>
+              <input
+                class="radio-btn"
+                type="radio"
+                name="join"
+                value="yes"
+                checked
+              />
+              Yes, please
+            </label>
+            <label>
+              <input class="radio-btn" type="radio" name="join" value="no" />
+              Nope
+            </label>
+          </form>
+        </div>
+        <a href="#" class="next-btn">
+          Next <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
